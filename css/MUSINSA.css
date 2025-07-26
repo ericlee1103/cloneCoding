@@ -1,9 +1,103 @@
 *{
+  margin: 0 auto;
+  padding: 0 auto;
   color: white;
-  border: 0;
+  text-decoration: none;
+}
+head{
+  background-color: rgb(26, 27, 31);
+  flex-direction: column;
+}
+.Header--Main-Top{
+  /* justify-content: space-between; */
+  width: 1420px;
+  padding: 0px 10px 0px 4px;
+  height: 56px;
+  background-color: rgb(26, 27, 31);
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  border: 0px solid black;
+}
+.Header--Space-area{
+  display: flex;
+  margin: 0 200px;
+}
+.Header--Secound-Space-area{
+  display: flex;
+  margin: 0 650px;
+}
+.Header--select-menu, .Header--Korean-Menu{
+  display: flex;
+}
+.Header--select-menu>a, .Header--Bar{
+  display: flex;
+  padding: 0 8px;
+}
+.Header--Korean-Menu>a, .Header--Bar1{
+  display: flex;
+  padding: 0 6px;
+  margin: 0 auto;
+}
+.Header--Secound-Top{
+  display: flex;
+  width: 1420px;
+  height: 40px;
+  background-color: rgb(26, 27, 31);
+  padding: 0px 10px 0px 4px;
+  align-items: center;
+}
+.Header--Search{
+  display: flex;
+  width: 1420px;
+  height: 40px;
+  background-color: rgb(26, 27, 31);
   padding: 0px 10px 0px 4px;
 }
-header{
-  background-color: black;
-  border-bottom-color: black;
+input{
+  width: 1410px;
+  height: 35px;
+  display: flex;
+  border: none;
 }
+button{
+  display: flex;
+  margin: -2.5% 97.1%;
+  padding: 0;
+  height: 32px;
+  width: 40px;
+  align-items: center;
+  background-color: white;
+  border: none;
+}
+main{
+  background-color: rgb(26, 27, 31);
+  flex-direction: column;
+  width: 1420px;
+  padding: 0px 10px 0px 4px;
+  
+}
+.Main--Top-Contents{
+  /* display: flex; */
+  margin: 0;
+  padding: 6px 0px;
+  height: 48px;
+  justify-content: left;
+  align-items: center;
+  position: sticky;
+  top: 56px;
+  z-index: 200;
+  border: 0px solid black;
+}
+
+.Main--Top-Contents>a{
+  margin: 0 0 0 6px;
+  padding: 8px 4px;
+}
+.Section--Brand-Advertisement{
+  display: flex;
+  height: 1000px;
+}
+/* sticky 오류 */
