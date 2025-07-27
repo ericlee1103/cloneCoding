@@ -1,16 +1,14 @@
 *{
   margin: 0 auto;
-  padding: 0 auto;
   color: white;
   text-decoration: none;
+  
 }
 head{
-  background-color: rgb(26, 27, 31);
   flex-direction: column;
 }
 .Header--Main-Top{
-  /* justify-content: space-between; */
-  width: 1420px;
+  width: 1426px;
   padding: 0px 10px 0px 4px;
   height: 56px;
   background-color: rgb(26, 27, 31);
@@ -18,15 +16,13 @@ head{
   align-items: center;
   position: sticky;
   top: 0;
-  z-index: 1000;
+  z-index: 10000;
   border: 0px solid black;
 }
 .Header--Space-area{
-  display: flex;
   margin: 0 200px;
 }
 .Header--Secound-Space-area{
-  display: flex;
   margin: 0 650px;
 }
 .Header--select-menu, .Header--Korean-Menu{
@@ -37,13 +33,11 @@ head{
   padding: 0 8px;
 }
 .Header--Korean-Menu>a, .Header--Bar1{
-  display: flex;
   padding: 0 6px;
-  margin: 0 auto;
 }
 .Header--Secound-Top{
   display: flex;
-  width: 1420px;
+  width: 1426px;
   height: 40px;
   background-color: rgb(26, 27, 31);
   padding: 0px 10px 0px 4px;
@@ -51,7 +45,7 @@ head{
 }
 .Header--Search{
   display: flex;
-  width: 1420px;
+  width: 1426px;
   height: 40px;
   background-color: rgb(26, 27, 31);
   padding: 0px 10px 0px 4px;
@@ -61,6 +55,7 @@ input{
   height: 35px;
   display: flex;
   border: none;
+  color: black;
 }
 button{
   display: flex;
@@ -73,23 +68,21 @@ button{
   border: none;
 }
 main{
-  background-color: rgb(26, 27, 31);
+  display: flex;
+  margin: 0 auto;
   flex-direction: column;
-  width: 1420px;
-  padding: 0px 10px 0px 4px;
-  
 }
 .Main--Top-Contents{
-  /* display: flex; */
-  margin: 0;
-  padding: 6px 0px;
+  background-color: #ebebeb;
+  display: flex;
+  background-color: rgb(26, 27, 31);
+  padding: 6px 7px;
   height: 48px;
-  justify-content: left;
   align-items: center;
   position: sticky;
   top: 56px;
-  z-index: 200;
   border: 0px solid black;
+  width: 1426px;
 }
 
 .Main--Top-Contents>a{
@@ -97,7 +90,137 @@ main{
   padding: 8px 4px;
 }
 .Section--Brand-Advertisement{
+  width: 1440px;
   display: flex;
-  height: 1000px;
+  height: 480px;
+  margin: 0 auto;
 }
-/* sticky 오류 */
+.Main--Event-Screen{
+  width: 1400px;
+  height: 58pxs;
+  display: flex;
+  padding: 16px 16px 0px 24px;
+  background-color: #ebebeb;
+  align-items: center;
+}
+.Main--Event-Screen>a>img{
+  width: 115.36px;
+  height: 40px;
+  border: 1px solid rgb(224, 224, 224);
+}
+.Main--Event-Second{
+  width: 1400px;
+  height: 58px;
+  padding: 0px 16px 16px 24px;
+  background-color: #ebebeb;
+  align-items: center;
+}
+.Main--Event-Second>a>img{
+  width: 115.36px;
+  height: 40px;
+  border: 1px solid rgb(224, 224, 224);
+}
+.Main--Event-Second-Blank{
+  padding: 0px 500px 0px 0px;
+}
+.Section--Minimal{
+  display: flex;
+  background-color: #ebebeb;
+  width: 1408px;
+  height: 24px;
+  padding: 12px 16px;
+}
+.Minimal{
+  width: 235.38px;
+  height: 24px;
+  display: inline;
+}
+.Minimal>h3{
+  margin: 0px 1110px 0px 0px;
+  color: black;
+  font-size: 18px;
+  
+}
+.Minimal-Blank{
+  margin: 0 500px;
+}
+.Main--Minimal-Brand{
+    width: 1400px;
+
+    display: flex;
+    padding: 16px 16px 0px 24px;
+    background-color: #ebebeb;
+    align-items: center;
+  }
+  .Main--Minimal-Brand>a>img{
+    width: 234px;
+    height: 310px;
+    border: 0px solid rgb(224, 224, 224);
+  display: flex;
+}
+.Main--Easy-On-The-Eyes-Brand{
+  width: 1400px;
+  height: 58pxs;
+  display: flex;
+  padding: 16px 16px 0px 24px;
+  background-color: #ebebeb;
+  /* align-items: center; */
+}
+.Main--Easy-On-The-Eyes-Brand>h3{
+  margin: 15px 0px 0px 0px;
+  color: black;
+  font-size: 18px;
+}
+.Main--New-Brand{
+  width: 1400px;
+  display: flex;
+  padding: 16px 16px 0px 24px;
+  background-color: #ebebeb;
+  align-items: center;
+}
+.Main--New-Brand>a>img{
+  display: flex;
+  width: 234px;
+  height: 316px;
+  border: 0px solid rgb(224, 224, 224);
+}
+.Main--Second-New-Brand{
+  width: 1400px;
+  display: flex;
+  padding: 0px 16px 0px 24px;
+  background-color: #ebebeb;
+  align-items: center;
+}
+.Main--Second-New-Brand>a>img{
+  width: 234px;
+  height: 310px;
+  border: 0px solid rgb(224, 224, 224);
+}
+.Main--Live-Table{
+  width: 1400px;
+  height: 58pxs;
+  display: flex;
+  padding: 16px 16px 0px 24px;
+  background-color: #ebebeb;
+  align-items: center;
+}
+.Main--Live-Table>h3{
+  color: black;
+  font-size: 18px;
+  margin: 10px 0px;
+}
+.Main--Sort-Of-Live{
+  width: 1400px;
+  display: flex;
+  padding: 0px 16px 0px 24px;
+  background-color: #ebebeb;
+  align-items: center;
+}
+.Main--Sort-Of-Live>a>img{
+  width: 234px;
+  height: 310px;
+  border: 0px solid rgb(224, 224, 224);
+}
+
+/* sticky Error */
+/* justify Error */
