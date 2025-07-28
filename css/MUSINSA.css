@@ -1,6 +1,5 @@
 *{
   color: white;
-  text-decoration: none;
   margin: 0;
   padding: 0;
 }
@@ -27,9 +26,14 @@ head{
 .Header--select-menu>a, .Header--Bar{
   display: flex;
   padding: 0 8px;
+  text-decoration: none;
 }
 .Header--Korean-Menu>a, .Header--Bar1{
+  text-decoration: none;
   padding: 0 6px;
+}
+.Header--Top-Right>a{
+  text-decoration: none;
 }
 .Header--Secound-Top{
   display: flex;
@@ -87,6 +91,7 @@ main{
 }
 
 .Main--Top-Contents>a{
+  text-decoration: none;
   margin: 0 0 0 6px;
   padding: 8px 4px;
 }
@@ -224,37 +229,62 @@ main{
 }
 footer{
   width: 1440px;
+  height: 379px;
   margin: 0 auto;
   border-left: 1px solid #ebebeb;
   border-right: 1px solid #ebebeb;
+  padding: 15px 0 72px;
+  background-color: #f0f0f0;
 }
 .Footer--Top-Menu{
   margin: 0 16px;
   padding: 5px 0px 24px;
   display: flex;
-  border-bottom: 1px solid #ebebeb;
+  border-bottom: 0px solid #ebebeb;
+}
+.Footer--Top-Menu>a{
+  width: 7%;
 }
 .musinsa, .beauty, .player, .outlet, .shoes, .boutique, .kids{
   width: 72.97px;
   height: 28px;
-  margin: 0 20px;
+  margin: 0 5px;
   border: 1px solid #ebebeb;
 }
+
 .Footer--Company-Info{
   display: flex;
-  width: 100%;
-  padding: 9px 0;
+  width: 159px;
+  padding: 15px 0 0;
   color: #666;
   font-size: 13px;
   font-weight: 500;
   line-height: 18px;
   flex-direction: column;
+  margin: 0 8px;
 }
 .Footer--Reserved{
+  height: 74px;
   color: #666;
-  margin-top: 24px;
+  margin: 24px 0 0 0;
+  font-size: 13px;
+  margin: 0 16px;
+  display: flex;
+  align-items: center;
+}
+.Footer--Privacy-Policy{
+  margin: 10px 16px 0;
+}
+.Footer--Privacy-Policy>a{
+  color: #666;
+  font-size: 16px;
+}
+.Footer--Product-Info{
+  margin: 10px 14px 0;
+  color: #666;
   font-size: 13px;
 }
-
-/* sticky Error */
-/* justify Error */
+.Footer--SNS-Info{
+  margin: 32px 0 0;
+  padding: 0 16px;
+}
